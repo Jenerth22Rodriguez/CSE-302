@@ -1,0 +1,38 @@
+For the first exercise, I think that the LLULIST (Linked List Unsorted) will be appropriate to
+complete this task. The LLULIST allows the user fast removal of the recently added items, in this
+application will be useful because names are subsequently removed before adding more 
+names. Also, the LLULIST allows us a quick traversal to the middle of the list.
+
+In the second application, The ASLIST (Array Sorted) will be appropriate to complete this task.
+The ASLIST allows us for stable quantities of items to be changing infrequently. This is useful 
+because celebrity pets that are not frequently add or remove from the database. ASLIST has 
+fast searching times, this is helpful because search for pet names will occur many times.
+
+Last application, I will use AULIST (Array Unsorted) this allow me for fast addition and removal
+item, which is helpful for added and removal titles very often. Also, the searching time is not
+that important, it does not need to keep a particular order. The maximum number of titles is 
+known in advance, if we reach the maximums number memory usage is not concern.
+
+
+
+A sorted List ADT: is a list of elements in sorted order usually from smallest to largest. The
+binary search algorithm is a searching algorithm that allow us to divide the search space in half
+at each step until we find the target number, its tome complexity is O(log n) where n is the number
+of the elements in the list. This algorithm only applies for sorted List ADT because its efficiency is 
+more efficient than a linear search, which has a time complexityof O(n) for an Unsorted list.Sorted List ADT enables the binary search algorithm
+to work quickly and accurately. 
+
+The Stack ADT: is a last in, first out that allows elements to be added and removed only from 
+the top of the stack. The linked list stack is a specific implementation of the stack ADT. Push and Pop
+operations in a linked list based Stack can be performed in constant time, O(1) since only require updating the head pointer of the Linked List. 
+ADT and Linked list stack are related is in implementation former, The similarity between the
+two is that they are both follow the rule LIFO. 
+
+The Queue ADT is a first in, first out (FIFO) that allow us elements to be added to the back of 
+the queue and removed from the front. The fixed front array is a specific implementation of the
+Queue ADT that uses a fixed size array. Enqueue and dequeue operations can be performed in constant 
+time O(1), as long the queue is not full.if the queue is full, enqueue operations become O(n) since all elements need to be 
+shifted to make room for the new element. The key similarity between the two is that they both 
+follow the FIFO rules, this means that elements are added to the back of the queue and 
+removed from the front. However Fixed Front array queue is limited in size by the size of it 
+underlying array, while Queue ADT has not this limitation.
